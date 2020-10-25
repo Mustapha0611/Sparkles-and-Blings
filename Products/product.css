@@ -1,0 +1,209 @@
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#head{
+    width: 100%;
+    height: 95px;
+    background: #000000;
+}
+#head img{
+    width: 100px;
+    height: 80px;
+    margin-top:6px ;
+    margin-left: 25px;
+}
+nav{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+#nav ul{
+    list-style: none;
+    margin: 5px ;
+   
+}
+#nav ul li{
+  
+    color: white;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+#nav ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: white;
+    padding:5px;
+}
+
+#nav ul li a:focus{
+    color: black;
+    background: white;
+    border-radius: 12px;
+    transition: 0.1s;
+}
+
+#container{
+    width: 100%;
+    background:  rgb(49, 24, 49) url(images/background1.jpg);
+    background-blend-mode: multiply;
+    background-size: contain;
+
+}
+
+
+#products_headertext{
+    margin: -5px auto;
+    color: rgb(168, 168, 168);
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+}
+#products ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0px ;
+    
+}
+
+
+#products ul li{
+    box-shadow: 7px 7px 7px 7px rgb(12, 19, 22);
+    display: inline-block;
+    border-radius: 10px;
+    width: 28%;
+    height: auto;
+    margin: 2% 2%;
+    background-image:linear-gradient(to right, #85667d, #c59abc);
+    padding:5px auto;
+}
+#products ul li img{
+    width: 65%;
+    height: 250px;
+    margin:10% 17%;
+}
+
+#products ul li span{
+    display: block;  
+    font-family: 'Montserrat'; 
+    font-size: small;
+    text-align: center;
+}
+
+#Buy_via_whatsapp{   
+    color:white;
+    text-decoration: none;
+    width: 70%;
+    display: inline-block;
+    background:rgb(10, 22, 39);
+    padding : 14px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 15px 10%;
+    cursor: pointer;
+    
+}
+
+#buy_via_mail{   
+    width: 80%;
+    color:white ;
+    outline: none;
+    border-radius: 20px;
+    display: inline-block;
+    background:rgba(45, 13, 59, 0.781);
+    padding : 14px;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px 10%;
+    
+}
+
+#addtocart:focus, #buy:focus{
+transform: scale(1.07);
+transition: .1s;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+
+@media Screen and (min-width:482px) and (max-width:768px){
+
+    nav{
+        display: inline-block;
+        margin-top: 24px;
+    }
+
+    #nav ul{
+        display: inline;
+        list-style: none;
+     
+       
+    }
+    #nav ul li{
+        color: white;
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    #products ul li{
+        width: 45%;
+    }
+}
+@media Screen and (max-width:480px){
+    #head{
+        height: auto;
+    }
+    #head img{
+        width: 80px;
+        height: 60px;
+        padding:7px 30%;
+    
+    }
+    nav{
+       background-color: rgb(9, 9, 10);
+       background-size: cover;
+        float: none;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: -20px;
+    }
+
+    #nav ul{
+        display: inline-block;
+        margin: 0 5%;
+        list-style: none;
+    }
+    #nav ul li{
+        color: white;
+        display: inline-block;
+        font-size: 1rem;
+    }
+    #products_headertext{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    #products ul li{
+        width: 70%;
+        margin: 2% 15%;
+    }
+    #products ul li img{
+        width: 60%;
+        height: 150px;
+    }
+}
+
+
+
