@@ -8,6 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -21,7 +22,7 @@
          
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="Products/product-1.html">Our Products</a></li>
+                <li><a href="Products/product-1.html">Products</a></li>
                 <li><a href="About.html">About Us</a></li>
             </ul>
         
@@ -29,14 +30,14 @@
    
     </header> 
 
-            <div id="text1" >Sparkles and Blings</div>
+            <div id="text1" data-aos="fade-right" data-aos-duration="500">Sparkles and Blings</div>
 
-        <div id="main">
-            <p>Welcome to Sparkles and Blings where our Esteem <b>Customers</b> always first. <br>
+        <div id="main" data-aos="zoom-in" data-aos-duration="800">
+            <p>Welcome to Sparkles and Blings where our Esteem <b>Customers</b> always come first. <br>
                We make you Sparkle with mind blowing jewelries without having to spend much(Pocket friendly) 
             </p>
 
-            <div id="qoute">
+            <div id="qoute" data-aos="zoom-in" data-aos-duration="600">
                 <p>"With the right jewelry, every girl can conquer the world" <span>_CEO Sparkles and Blings</span></p> 
            </div>
 
@@ -46,4 +47,8 @@
 
     <footer> &copy; Sparkles and Blings 2020</footer>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
