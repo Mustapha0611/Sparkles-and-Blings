@@ -100,7 +100,7 @@ nav{
     display: inline-block;
     background:rgb(10, 22, 39);
     padding : 14px;
-    font-family: sans-serif;
+    font-family: 'Montserrat';
     text-align: center;
     margin: 15px 10%;
     cursor: pointer;
@@ -113,12 +113,12 @@ nav{
     outline: none;
     border-radius: 20px;
     display: inline-block;
-    background:rgba(45, 13, 59, 0.781);
+    background:rgba(32, 48, 94, 0.781);
     padding : 14px;
-    font-family: sans-serif;
+    font-family: 'Montserrat';
     cursor: pointer;
     text-align: center;
-    margin: 5px 10%;
+    margin: 5px 7%;
     
 }
 
@@ -133,6 +133,7 @@ footer{
     background-color: black;
     color: white;
     font-size: 2rem;
+    font-family: 'Montserrat';
     text-align: center;
     padding-top:10px;
     padding-bottom: 15px;
@@ -175,13 +176,15 @@ footer{
        background-color: rgb(9, 9, 10);
        background-size: cover;
         float: none;
+       
         margin-top: 0px;
         margin-right: 0px;
-        margin-left: -20px;
+        margin-left: -10%;
     }
 
     #nav ul{
         display: inline-block;
+        width:100%;
         margin: 0 5%;
         list-style: none;
     }
@@ -189,9 +192,10 @@ footer{
         color: white;
         display: inline-block;
         font-size: 1rem;
+        margin:5px;
     }
     #products_headertext{
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 20px;
     }
 
@@ -202,6 +206,18 @@ footer{
     #products ul li img{
         width: 60%;
         height: 150px;
+    }
+    #Buy_via_whatsapp{
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+    #buy_via_mail{
+        padding: 10px;
+        font-size: 0.8rem;
+        margin-top: -10px;
+    }
+    footer{
+        font-size: 1.5rem;
     }
 }
 
