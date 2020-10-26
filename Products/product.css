@@ -141,23 +141,37 @@ footer{
 
 @media Screen and (min-width:482px) and (max-width:768px){
 
+     #head{
+        height: auto;
+    }
+    #head img{
+        width: 80px;
+        height: 60px;
+        padding:7px 30%;
+    
+    }
     nav{
-        display: inline-block;
-        margin-top: 24px;
+       background-color: rgb(9, 9, 10);
+       background-size: cover;
+        float: none;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: -10%;
     }
 
     #nav ul{
-        display: inline;
+        display: inline-block;
+        width:100%;
+        margin: 0 5%;
         list-style: none;
-     
-       
     }
     #nav ul li{
         color: white;
         display: inline-block;
         font-size: 1rem;
+        margin:5px;
     }
-
+   
     #products ul li{
         width: 45%;
     }
