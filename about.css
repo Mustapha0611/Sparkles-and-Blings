@@ -115,6 +115,7 @@ footer{
     color: white;
     font-size: 2rem;
     text-align: center;
+    font-family: 'Montserrat';
     padding-top:10px;
     padding-bottom: 15px;
 }
@@ -215,5 +216,9 @@ footer{
 
     #contact{
         width: 90%;
+    }
+
+    footer{
+        font-size: 1.5rem;
     }
 }
