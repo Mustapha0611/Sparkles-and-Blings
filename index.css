@@ -96,6 +96,7 @@ footer{
     height: auto;
     background-color: black;
     color: white;
+    font-family: 'Montserrat';
     font-size: 2rem;
     text-align: center;
     padding-top:10px;
@@ -106,11 +107,9 @@ footer{
     nav{
         display: inline-block;
         margin-top: 24px;
-       
     }
 
     #nav ul{
- 
         display: inline;
         list-style: none;
      
@@ -149,14 +148,15 @@ footer{
        background-color: rgb(9, 9, 10);
        background-size: cover;
         float: none;
+       
         margin-top: 0px;
         margin-right: 0px;
         margin-left: -10%;
     }
 
-    #nav ul{;
+    #nav ul{
         display: inline-block;
-        width:100%
+        width:100%;
         margin: 0 5%;
         list-style: none;
     }
@@ -164,19 +164,22 @@ footer{
         color: white;
         display: inline-block;
         font-size: 1rem;
+        margin:5px;
     }
-
     #text1{
         font-size: 2.5rem;
     }
     #main p{
-    width: 90%;
+        width: 90%;
     }
     
 #qoute p{
     font-size: 1rem;
     width: 90%;
    margin: 20px 2%;
-    
-}
+    }
+
+    footer{
+        font-size: 1.5rem;
+    }
 }
