@@ -8,6 +8,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='about.css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="container">
@@ -20,7 +21,7 @@
          
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="Products/product-1.html">Products</a></li>
+                <li><a href="Products/product-1.html">Our Products</a></li>
                 <li><a href="#">About Us</a></li>
             </ul>
         
@@ -31,7 +32,7 @@
     
         <div id="text1" >ABOUT US</div>
 
-        <div id="main">
+        <div id="main" data-aos="zoom-in" data-aos-duration="500">
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                 Consequuntur, optio sint voluptatibus odio, cumque saepe
@@ -44,7 +45,7 @@
             </p>
 
             
-                <div id="contact"> 
+                <div id="contact" data-aos="zoom-in" data-aos-duration="800"> 
                     <p class="contact">Contact Us</p>
                     <p id="contactp">For more enquiries or complains feel free to reach us on our social media platforms
                       also don't forget to follow us
@@ -63,4 +64,9 @@
     </div>
     
 </body>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
