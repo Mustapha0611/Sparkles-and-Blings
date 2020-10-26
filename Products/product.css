@@ -141,7 +141,43 @@ footer{
 
 @media Screen and (min-width:482px) and (max-width:768px){
 
-     #head{
+   #container{
+    width: 100%;
+    height: auto;
+    background:  rgb(58, 31, 88) url(images/background1.jpg);
+    background-blend-mode: multiply;
+    background-size: contain;
+
+}
+    #head img{
+        width: 80px;
+        height: 80px;
+        margin-top:6px ;
+        margin-left: 5px;
+    }
+    nav{
+        margin-top: 24px;
+        margin-right: 0%;
+    }
+
+    #nav ul{
+        display: inline;
+        list-style: none;
+     
+       
+    }
+    #nav ul li{
+        color: white;
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    #products ul li{
+        width: 45%;
+    }
+}
+@media Screen and (max-width:480px){
+    #head{
         height: auto;
     }
     #head img{
@@ -162,43 +198,6 @@ footer{
     #nav ul{
         display: inline-block;
         width:100%;
-        margin: 0 5%;
-        list-style: none;
-    }
-    #nav ul li{
-        color: white;
-        display: inline-block;
-        font-size: 1rem;
-        margin:5px;
-    }
-   
-    #products ul li{
-        width: 45%;
-    }
-}
-@media Screen and (max-width:480px){
-    #head{
-        height: auto;
-    }
-    #head img{
-        width: 80px;
-        height: 60px;
-        padding:7px 30%;
-    
-    }
-    nav{
-       background-color: rgb(9, 9, 10);
-       background-size: cover;
-       float: none;
-       
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-left: -10%;
-    }
-
-    #nav ul{
-        display: inline-block;
-        width:100%
         margin: 0 5%;
         list-style: none;
     }
